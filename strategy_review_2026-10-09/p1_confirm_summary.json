@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "score": 0.8697552525671087,
+    "mean_d": 0.0,
+    "sd_d": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 7,
+    "pairs": 7,
+    "passes": false
+  },
+  "impute_then_derive": {
+    "score": 0.8728524183221715,
+    "mean_d": 0.0030971657550628823,
+    "sd_d": 0.0014126806340912664,
+    "wins": 7,
+    "losses": 0,
+    "ties": 0,
+    "pairs": 7,
+    "passes": true
+  }
+}

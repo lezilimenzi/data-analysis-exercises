@@ -1,0 +1,7 @@
+sanity: stats36 OOF Macro-F1 w=1.0 0.725 (record 0.725), w=1.4 0.758 (record 0.758)
+(a) SEG-1057(1)/SEG-1014(2): same row multiset True, order30 features differing 15/30, stats36 differing 12/36
+(a) SEG-1061(1)/SEG-1100(2): same row multiset True, order30 features differing 8/30, stats36 differing 6/36
+(b) max univariate AUC: order30 0.715 (feature 14), stats36 0.662; shuffled-label null 95th pct of order30 max = 0.751 -> pass False
+(c) 1-vs-2 OOF AUC (5-fold x 10): stats36 0.510 +/- 0.070, +order30 0.506 +/- 0.068, paired diff -0.004 (positive in 5/10) -> pass False
+(d) class 1/2 samples with own-class proba below class mean and another class on top: 15 of 52; permutation-pair members flagged: ['SEG-1100', 'SEG-1014', 'SEG-1061', 'SEG-1057']
+stage 1 decision (a and (b or c)): False

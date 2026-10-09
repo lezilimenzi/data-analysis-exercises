@@ -1,0 +1,34 @@
+A tuning (mean MAE):
+candidate
+H1_mix24          2.3405
+H1_mix48          2.3444
+H2_sigma1         2.3587
+H2_sigma3         2.3496
+H2_sigma6         2.3637
+daily_ridge1      2.3819
+hourly_ridge10    2.3726
+selected on A: H1 H0=24, H2 sigma=3
+check: sigma=1e6 equals unweighted hourly ridge OK
+
+[C] n=81  candidate        MAE    1-24h  25-48h 49-72h  diff    win    t_p    wil_p
+                daily_ridge1     2.430  2.049  2.501  2.741  +0.000   0.0%  nan  nan
+                hourly_ridge10   2.463  2.010  2.556  2.822  +0.033  50.6%  0.457  0.827
+                H1_mix24         2.475  2.049  2.556  2.822  +0.045  48.1%  0.198  0.473
+                H2_sigma3        2.415  1.981  2.509  2.754  -0.016  55.6%  0.631  0.377
+
+[C0] n=81  candidate        MAE    1-24h  25-48h 49-72h  diff    win    t_p    wil_p
+                daily_ridge1     2.801  2.340  2.943  3.121  +0.000   0.0%  nan  nan
+                hourly_ridge10   2.485  2.025  2.657  2.774  -0.316  69.1%  0.000  0.000
+                H1_mix24         2.591  2.340  2.657  2.774  -0.211  67.9%  0.000  0.001
+                H2_sigma3        2.482  2.027  2.593  2.826  -0.319  72.8%  0.000  0.000
+
+[B] n=9  candidate        MAE    1-24h  25-48h 49-72h  diff    win    t_p    wil_p
+                daily_ridge1     2.151  1.977  2.318  2.159  +0.000   0.0%  nan  nan
+                hourly_ridge10   2.029  1.852  2.070  2.164  -0.122  66.7%  0.107  0.164
+                H1_mix24         2.070  1.977  2.070  2.164  -0.081  55.6%  0.168  0.301
+                H2_sigma3        2.016  1.792  2.122  2.133  -0.136  66.7%  0.044  0.074
+
+Judgement on C (PLAN §11.4: diff <= -0.05 and win >= 60%):
+  H1_mix24: diff +0.045, win 48.1% -> adopt=False
+  H2_sigma3: diff -0.016, win 55.6% -> adopt=False
+H3 (hourly GBM) proceeds: False

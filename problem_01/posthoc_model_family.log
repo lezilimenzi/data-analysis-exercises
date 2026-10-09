@@ -1,0 +1,24 @@
+repeat 0 done (49s)
+repeat 1 done (48s)
+repeat 2 done (47s)
+repeat 3 done (48s)
+repeat 4 done (49s)
+repeat 5 done (51s)
+repeat 6 done (52s)
+repeat 7 done (60s)
+repeat 8 done (62s)
+repeat 9 done (63s)
+                        mean     std
+rf_raw__f1_05         0.7021  0.0104
+gb_raw__f1_05         0.7042  0.0094
+hgb_raw__f1_05        0.7115  0.0111
+rf_der__f1_05         0.8704  0.0064
+gb_der__f1_05         0.8692  0.0054
+hgb_der__f1_05        0.8188  0.0080
+hgb_final__f1_05      0.8107  0.0103
+hgb_leaf8__f1_05      0.8252  0.0069
+ens_der__f1_05        0.8723  0.0039
+rf_der__f1_nested     0.8680  0.0063
+gb_der__f1_nested     0.8662  0.0059
+hgb_final__f1_nested  0.8169  0.0116
+ens_der__f1_nested    0.8686  0.0078

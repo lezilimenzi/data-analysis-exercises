@@ -1,0 +1,8 @@
+[20:41:56]     epoch time 4.1s
+[20:43:25]   E0 s0 fold0: 0.9597
+[20:43:29]     epoch time 3.5s
+[20:44:57]   E0 s0 fold1: 0.9546
+[20:45:01]     epoch time 4.3s
+[20:46:39]   E0 s0 fold2: 0.9615
+[20:46:39] E0 s0: mean 0.9586 289s
+E0 reproducibility vs saved C0 s0: diffs [0.0, 0.0, 0.0] max|diff| 0.0000

@@ -1,0 +1,10 @@
+check 1: 23:00 rows equal to forecast.py (M1 + 37 features): 721 rows OK
+check 3: corruption after origin leaves features and predictions unchanged OK
+integration check: daily_ridge1 A = 2.382 (record 2.382), B = 2.151 (record 2.151)
+check 4: training rows at first A origin: daily 296, hourly 7081 (expected hourly = 7081)
+
+candidate        A      A1     A2     B    h1-24  h25-48 h49-72  dA_vs_daily  winA   t_p    wil_p  adopt
+daily_ridge1    2.382 2.356 2.483 2.151  1.830  2.517  2.799  +0.000   0.0%  nan  nan  False
+hourly_ridge1   2.379 2.381 2.371 2.029  1.923  2.510  2.704  -0.003  53.1%  0.964  0.602  False
+hourly_ridge10  2.373 2.373 2.369 2.029  1.926  2.505  2.687  -0.009  53.1%  0.868  0.534  False
+hourly_ridge100 2.391 2.397 2.371 2.032  1.940  2.548  2.687  +0.009  55.1%  0.860  0.717  False

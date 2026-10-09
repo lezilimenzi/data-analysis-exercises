@@ -1,0 +1,14 @@
+[21:58:11]     epoch time 4.0s
+[21:59:44]   seed 1000 done 98s
+[21:59:50]     epoch time 5.3s
+[22:01:26]   seed 1001 done 102s
+[22:01:31]     epoch time 5.1s
+[22:03:06]   seed 1002 done 99s
+[22:03:06] holdout {'config': 'C0', 'seeds': [1000, 1001, 1002], 'single_seed_f1': [0.9560903582865082, 0.9582534114443085, 0.958111266092656], 'ensemble_f1': 0.958152972387626, 'ensemble_acc': 0.9581632653061225}
+[22:03:18]     epoch time 6.9s
+[22:05:16]   seed 1000 done 125s
+[22:05:22]     epoch time 6.3s
+[22:07:19]   seed 1001 done 124s
+[22:07:26]     epoch time 6.4s
+[22:09:33]   seed 1002 done 133s
+[22:09:33] submission OK. class counts: [198, 197, 199, 201, 196, 201, 208]

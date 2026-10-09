@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# 정답·채점 폴더
+*_instructor*/
+
+# 대회 제공 자료 (GitHub에 올리기 전 대회 규정 확인)
+guide(pre)_2026MAICON.pdf
+problem_*/data/
+problem_02/train/
+problem_02/test/
+problem_*/train*.csv
+problem_*/test*.csv
+problem_*/sample_submission*
+
+# 생성물·모델 바이너리 (다시 만들 수 있음)
+problem_*/cache/
+problem_*/models/
+*.onnx
+*.joblib
+
+# 비밀 정보
+.env*

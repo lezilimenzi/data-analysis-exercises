@@ -1,0 +1,60 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+p5 repeat=0 fold=0
+p5 repeat=0 fold=1
+p5 repeat=0 fold=2
+p5 repeat=0 fold=3
+p5 repeat=0 fold=4
+p5 repeat=1 fold=0
+p5 repeat=1 fold=1
+p5 repeat=1 fold=2
+p5 repeat=1 fold=3
+p5 repeat=1 fold=4
+p5 repeat=2 fold=0
+p5 repeat=2 fold=1
+p5 repeat=2 fold=2
+p5 repeat=2 fold=3
+p5 repeat=2 fold=4
+{
+  "baseline": {
+    "score": 0.9577263324292927,
+    "mean_d": 0.0,
+    "sd_d": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 15,
+    "pairs": 15,
+    "passes": false
+  },
+  "l2_only": {
+    "score": 0.9558496998433699,
+    "mean_d": -0.001876632585922744,
+    "sd_d": 0.013638291266315147,
+    "wins": 4,
+    "losses": 9,
+    "ties": 2,
+    "pairs": 15,
+    "passes": false
+  },
+  "scale_only": {
+    "score": 0.9553481699506645,
+    "mean_d": -0.0023781624786281207,
+    "sd_d": 0.010454503877873932,
+    "wins": 4,
+    "losses": 8,
+    "ties": 3,
+    "pairs": 15,
+    "passes": false
+  },
+  "raw": {
+    "score": 0.9523110621380508,
+    "mean_d": -0.005415270291241958,
+    "sd_d": 0.008242505602619746,
+    "wins": 6,
+    "losses": 9,
+    "ties": 0,
+    "pairs": 15,
+    "passes": false
+  }
+}
+elapsed_seconds=78.37
