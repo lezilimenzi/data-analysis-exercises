@@ -1,9 +1,0 @@
-{
-  "seed_base": 1,
-  "fold": 1,
-  "model": "grid",
-  "train_seconds": 91.64623125599974,
-  "plain_seconds": 0.6773296030000893,
-  "tta_seconds": 3.4973006509999323,
-  "parameters": 294951
-}

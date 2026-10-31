@@ -429,7 +429,7 @@ def validate_csv(sub, sample, id_col, target_col, labels=None):
 | P9 격자 분류 | `problem_09/RESEARCH.md`, `PLAN.md`, `EXPERIMENTS.md`(v1~v3) |
 | P10 부분 주석 텍스트 | `problem_10/RESEARCH.md`, `PLAN.md`, `EXPERIMENTS.md`(v1~v3) |
 | P11 객체 탐지 | `problem_11/RESEARCH.md`, `PLAN.md`, `EXPERIMENTS.md`(v1~v3) |
-| P1~P8 추가 감사·실험 | [첫 검토](strategy_review_2026-10-09/README.md), [후속 검증](strategy_validation_2026-10-09/README.md), [추가 실험 2차](strategy_round2_2026-10-09/README.md) |
+| P1~P8 추가 감사·실험 | [STRATEGY_full §14.1](STRATEGY_full_2026-10-05.md) (첫 검토·후속 검증·추가 실험 2차 요약. 원 폴더는 삭제) |
 | 세부 근거표·문헌·코드 템플릿 | [STRATEGY_full_2026-10-05.md](STRATEGY_full_2026-10-05.md) |
 
 **한계**

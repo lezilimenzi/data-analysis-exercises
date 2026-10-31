@@ -1,9 +1,0 @@
-{
-  "seed_base": 1,
-  "fold": 2,
-  "model": "gap",
-  "train_seconds": 84.31713271299986,
-  "plain_seconds": 0.7596154889997706,
-  "tta_seconds": 4.90890701599983,
-  "parameters": 287783
-}

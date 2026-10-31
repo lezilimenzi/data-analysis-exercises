@@ -1,4 +1,0 @@
-/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
-  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
-p2_summary {"baseline": 0.9572800727939037, "candidate": 0.9584619595708441, "mean_d": 0.0011818867769404465, "sd_d": 0.0021362224691165973, "wins": 6, "losses": 3, "ties": 0, "pairs": 9, "passes": false, "ensemble_baseline": 0.9602322945395333, "ensemble_candidate": 0.9604805962981852, "fixes": 24, "breaks": 23, "baseline_errors": 195, "candidate_errors": 194}
-p2_execution {"elapsed_seconds": 0.19885191599951213, "code_sha256": "dabdae0b2d32cf291376560b3d931428c7ab47c0a3f87c7bf14a6ec4d105fe6a", "protocol_sha256": "3c698a34db479a23a4d4d4e1a2e13e0543731a4026da1da8c0035ed2a0a1b78c"}
