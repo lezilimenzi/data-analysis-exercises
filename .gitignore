@@ -23,3 +23,7 @@ problem_*/models/
 
 # 비밀 정보
 .env*
+
+# 예선 시험 자료 (외부 저장 금지 - git에 올리지 않음)
+test_0*/
+aerial_objects.url
