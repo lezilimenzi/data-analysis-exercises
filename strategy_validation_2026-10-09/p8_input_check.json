@@ -1,0 +1,46 @@
+{
+  "train.csv": {
+    "columns": [
+      "cycle_id",
+      "split",
+      "label"
+    ]
+  },
+  "sensor_data.npz": {
+    "cycle_id": {
+      "shape": [
+        2205
+      ],
+      "dtype": "<U7"
+    },
+    "pressure": {
+      "shape": [
+        2205,
+        6000
+      ],
+      "dtype": "float32"
+    },
+    "flow": {
+      "shape": [
+        2205,
+        600
+      ],
+      "dtype": "float32"
+    },
+    "temperature": {
+      "shape": [
+        2205,
+        60
+      ],
+      "dtype": "float32"
+    },
+    "vibration": {
+      "shape": [
+        2205,
+        60
+      ],
+      "dtype": "float32"
+    }
+  },
+  "conclusion": "Provided sensor arrays and train columns contain no independent valve-command timestamp; relative-event delay benefit could not be verified."
+}

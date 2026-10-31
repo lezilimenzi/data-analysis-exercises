@@ -1,0 +1,9 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+gap seed=0 epoch=5
+gap seed=0 epoch=10
+gap seed=0 epoch=15
+gap seed=0 epoch=20
+DONE gap s0 f0: plain=0.959654 tta=0.960894 train_s=75.5
+gap seed=1 epoch=5
+gap seed=1 epoch=10

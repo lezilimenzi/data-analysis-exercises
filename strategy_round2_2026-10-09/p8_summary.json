@@ -1,0 +1,67 @@
+{
+  "fit_n": 1324,
+  "valid_n": 440,
+  "injected_n": 132,
+  "bounds": {
+    "baseline": [
+      940.0,
+      948.5,
+      959.5
+    ],
+    "candidate": [
+      940.0,
+      948.5,
+      959.5
+    ]
+  },
+  "results": [
+    {
+      "duration_samples": 0,
+      "model": "baseline",
+      "score": 1.0,
+      "errors": 0
+    },
+    {
+      "duration_samples": 0,
+      "model": "candidate",
+      "score": 1.0,
+      "errors": 0
+    },
+    {
+      "duration_samples": 1,
+      "model": "baseline",
+      "score": 0.8452917572036531,
+      "errors": 60
+    },
+    {
+      "duration_samples": 1,
+      "model": "candidate",
+      "score": 1.0,
+      "errors": 0
+    },
+    {
+      "duration_samples": 2,
+      "model": "baseline",
+      "score": 0.8452917572036531,
+      "errors": 60
+    },
+    {
+      "duration_samples": 2,
+      "model": "candidate",
+      "score": 1.0,
+      "errors": 0
+    },
+    {
+      "duration_samples": 3,
+      "model": "baseline",
+      "score": 0.8452917572036531,
+      "errors": 60
+    },
+    {
+      "duration_samples": 3,
+      "model": "candidate",
+      "score": 0.8452917572036531,
+      "errors": 60
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "score": 0.7756796022943898,
+    "mean_d": 0.0,
+    "sd_d": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 14,
+    "pairs": 14,
+    "passes": false
+  },
+  "coverage": {
+    "score": 0.7627889297744984,
+    "mean_d": -0.012890672519891486,
+    "sd_d": 0.03303537869717904,
+    "wins": 2,
+    "losses": 4,
+    "ties": 8,
+    "pairs": 14,
+    "passes": false
+  }
+}

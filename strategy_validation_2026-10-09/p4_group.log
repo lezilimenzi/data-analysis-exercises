@@ -1,0 +1,14 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+P4 group repeat 0
+P4 group repeat 1
+P4 group repeat 2
+P4 group repeat 3
+P4 group repeat 4
+P4 group repeat 5
+P4 group repeat 6
+P4 group repeat 7
+P4 group repeat 8
+P4 group repeat 9
+p4_group_diagnostics {"groups": 118, "related_pairs": [["SEG-1100", "SEG-1061"], ["SEG-1014", "SEG-1057"]], "original_fold_mean": 0.7673457007045242, "grouped_fold_mean": 0.771475893868773, "grouped_repeat_pooled": [{"repeat": 0, "pooled": 0.7599940107551546}, {"repeat": 1, "pooled": 0.8423559652953477}, {"repeat": 2, "pooled": 0.8033439582729643}, {"repeat": 3, "pooled": 0.7577141590896094}, {"repeat": 4, "pooled": 0.771859251859252}, {"repeat": 5, "pooled": 0.7624805079977494}, {"repeat": 6, "pooled": 0.7776777881062312}, {"repeat": 7, "pooled": 0.7491005841005842}, {"repeat": 8, "pooled": 0.8067599067599069}, {"repeat": 9, "pooled": 0.80150036954915}], "original_group_overlap": [{"repeat": 0, "overlapping_groups_per_fold": [0, 0, 1, 0, 1]}, {"repeat": 1, "overlapping_groups_per_fold": [0, 0, 1, 1, 0]}, {"repeat": 2, "overlapping_groups_per_fold": [0, 2, 1, 1, 0]}, {"repeat": 3, "overlapping_groups_per_fold": [0, 0, 0, 0, 0]}, {"repeat": 4, "overlapping_groups_per_fold": [0, 1, 1, 0, 2]}, {"repeat": 5, "overlapping_groups_per_fold": [0, 1, 2, 0, 1]}, {"repeat": 6, "overlapping_groups_per_fold": [0, 0, 2, 2, 0]}, {"repeat": 7, "overlapping_groups_per_fold": [1, 0, 0, 0, 1]}, {"repeat": 8, "overlapping_groups_per_fold": [1, 0, 1, 1, 1]}, {"repeat": 9, "overlapping_groups_per_fold": [0, 1, 1, 2, 0]}], "interpretation": "Different outer partitions: diagnostic sensitivity, not paired model improvement; no model selected."}
+elapsed_seconds=41.26

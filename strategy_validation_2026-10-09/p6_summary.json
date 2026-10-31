@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "score": 0.9831524089744721,
+    "mean_d": 0.0,
+    "sd_d": 0.0,
+    "wins": 0,
+    "losses": 0,
+    "ties": 15,
+    "pairs": 15,
+    "passes": false
+  },
+  "group_inner": {
+    "score": 0.9823456676226835,
+    "mean_d": -0.0008067413517886498,
+    "sd_d": 0.00303325209543837,
+    "wins": 3,
+    "losses": 4,
+    "ties": 8,
+    "pairs": 15,
+    "passes": false
+  }
+}

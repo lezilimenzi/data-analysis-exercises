@@ -1,0 +1,15 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+P1 done repeat 0
+P1 done repeat 1
+P1 done repeat 2
+P1 done repeat 3
+P1 done repeat 4
+P1 done repeat 5
+P1 done repeat 6
+P1 done repeat 7
+P1 done repeat 8
+P1 done repeat 9
+p1_summary {"baseline": {"score": 0.8722552797124778, "mean_d": 0.0, "sd_d": 0.0, "wins": 0, "losses": 0, "ties": 10, "pairs": 10, "passes": false}, "impute_first": {"score": 0.8752755596008261, "mean_d": 0.003020279888348176, "sd_d": 0.0039018014429094824, "wins": 7, "losses": 3, "ties": 0, "pairs": 10, "passes": true}}
+p1_diagnostics {"baseline_max_abs_diff": 0.0, "repeated_prediction_changes": [{"repeat": 0, "fixes": 7, "breaks": 5}, {"repeat": 1, "fixes": 7, "breaks": 2}, {"repeat": 2, "fixes": 6, "breaks": 2}, {"repeat": 3, "fixes": 4, "breaks": 4}, {"repeat": 4, "fixes": 4, "breaks": 2}, {"repeat": 5, "fixes": 5, "breaks": 3}, {"repeat": 6, "fixes": 6, "breaks": 5}, {"repeat": 7, "fixes": 4, "breaks": 6}, {"repeat": 8, "fixes": 4, "breaks": 5}, {"repeat": 9, "fixes": 5, "breaks": 6}]}
+elapsed_seconds=573.16

@@ -1,0 +1,26 @@
+{
+  "missing": {
+    "fixes": 19,
+    "breaks": 12,
+    "fixed_fn": 13,
+    "new_fn": 3,
+    "fixed_fp": 6,
+    "new_fp": 9
+  },
+  "complete": {
+    "fixes": 33,
+    "breaks": 28,
+    "fixed_fn": 13,
+    "new_fn": 5,
+    "fixed_fp": 20,
+    "new_fp": 23
+  },
+  "all": {
+    "fixes": 52,
+    "breaks": 40,
+    "fixed_fn": 26,
+    "new_fn": 8,
+    "fixed_fp": 26,
+    "new_fp": 32
+  }
+}

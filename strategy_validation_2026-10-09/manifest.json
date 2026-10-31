@@ -1,0 +1,34 @@
+{
+  "python": "3.10.12",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.2",
+    "scipy": "1.8.0",
+    "scikit-learn": "1.7.2",
+    "torch": "2.10.0",
+    "onnxruntime": "1.23.2",
+    "Pillow": "10.4.0"
+  },
+  "sha256": {
+    "strategy_validation_2026-10-09/p2_spatial.py": "4665529fc01ed4957f5e25a39fa88439412fdef016a2e997fd6e514205345ddc",
+    "strategy_validation_2026-10-09/tabular.py": "e7c74e246bb2f0eb30f29b38d137384c6ad70271763fe0a945eed8a33e4f0064",
+    "strategy_validation_2026-10-09/image_text.py": "5bf7c46e1cf302d1c8954b12ede04a2413b64df390786d61768188dda7697e4d",
+    "strategy_validation_2026-10-09/PROTOCOL.md": "69a8430cb45c1aae1e53255d2d745ce51dd71bd6567870da1892958673735542",
+    "problem_01/train.csv": "d6e3f90f44a5dbc85b631d2c7c1c14334798ecd9756a3e1b0d00fb0c1d291df9",
+    "problem_02/classes.json": "6ce192413470b8912bada2faeca90f52b52b3772c0b12bb4d0ebc1db2749576d",
+    "problem_03/train.csv": "ab756e8d8248e5c242603132455870b4c337f1de6e23a8382da274dd68b52130",
+    "problem_04/train_series.csv": "63b1e3ca5c6662bc18106837cb97d6f606a2ade7bae0752e251e837b0e12dff4",
+    "problem_04/train_labels.csv": "14ed001f2cd752f07e26f9820648524fa4ed119ac61a27f8321da26d04c3af53",
+    "problem_05_codex/data/train.csv": "c2fbba480fbbb1259eb90746a15b14ba6eaa7d6dbcbdc81adbdc447629463708",
+    "problem_05_codex/models/image_encoder.onnx": "42ddc40deb2dffd909673af6a19ffd110a32d3d5bfe1c8fe48ee6fc51ffb85d6",
+    "problem_06/data/train.csv": "3319b99a20651a9de0e95de27332aec1bb1e1b77455dc322997c39f0b45bb34a",
+    "problem_07/data/train.csv": "42fa7839bc60a339e7679b7283d3977d90b97938bb7c9413526679a29dcc05ad",
+    "problem_07/data/link_log.csv": "36fd58c046f19132a6ce53ee1a9ce9d5643cc0538caac30851bb5e2dca4de265",
+    "problem_08/data/train.csv": "3448fff671bf904dca21e7f192b3f475d1ff8b141c2ff9ee63a554bae388a475"
+  },
+  "p2_ordered_images": {
+    "count": 4900,
+    "sha256": "ba8490db55ef9369e034e25f0758e76281155c733131c91b646e46b1a7261247"
+  },
+  "scope": "train-only post-hoc; no new test scoring"
+}

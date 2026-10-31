@@ -1,0 +1,29 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+[0;93m2026-10-09 17:40:39.196662771 [W:onnxruntime:Default, device_discovery.cc:164 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:89 ReadFileContents Failed to open file: "/sys/class/drm/card0/device/vendor"[m
+Using cached image features.
+P5 crop 100
+P5 crop 200
+P5 crop 300
+P5 crop 400
+P5 crop 500
+P5 crop 600
+P5 crop 700
+P5 done 0 0
+P5 done 0 1
+P5 done 0 2
+P5 done 0 3
+P5 done 0 4
+P5 done 1 0
+P5 done 1 1
+P5 done 1 2
+P5 done 1 3
+P5 done 1 4
+P5 done 2 0
+P5 done 2 1
+P5 done 2 2
+P5 done 2 3
+P5 done 2 4
+p5_summary {"baseline": {"score": 0.9577263324292927, "mean_d": 0.0, "sd_d": 0.0, "wins": 0, "losses": 0, "ties": 15, "pairs": 15, "passes": false}, "center_crop": {"score": 0.9505403854368863, "mean_d": -0.0071859469924064594, "sd_d": 0.013370209154200662, "wins": 2, "losses": 11, "ties": 2, "pairs": 15, "passes": false}}
+p5_diagnostics {"inner_choices": [{"repeat": 0, "fold": 0, "model": "baseline", "C": 10}, {"repeat": 0, "fold": 0, "model": "center_crop", "C": 100}, {"repeat": 0, "fold": 1, "model": "baseline", "C": 100}, {"repeat": 0, "fold": 1, "model": "center_crop", "C": 100}, {"repeat": 0, "fold": 2, "model": "baseline", "C": 10}, {"repeat": 0, "fold": 2, "model": "center_crop", "C": 100}, {"repeat": 0, "fold": 3, "model": "baseline", "C": 10}, {"repeat": 0, "fold": 3, "model": "center_crop", "C": 1}, {"repeat": 0, "fold": 4, "model": "baseline", "C": 100}, {"repeat": 0, "fold": 4, "model": "center_crop", "C": 1}, {"repeat": 1, "fold": 0, "model": "baseline", "C": 10}, {"repeat": 1, "fold": 0, "model": "center_crop", "C": 100}, {"repeat": 1, "fold": 1, "model": "baseline", "C": 100}, {"repeat": 1, "fold": 1, "model": "center_crop", "C": 100}, {"repeat": 1, "fold": 2, "model": "baseline", "C": 10}, {"repeat": 1, "fold": 2, "model": "center_crop", "C": 100}, {"repeat": 1, "fold": 3, "model": "baseline", "C": 10}, {"repeat": 1, "fold": 3, "model": "center_crop", "C": 100}, {"repeat": 1, "fold": 4, "model": "baseline", "C": 10}, {"repeat": 1, "fold": 4, "model": "center_crop", "C": 100}, {"repeat": 2, "fold": 0, "model": "baseline", "C": 100}, {"repeat": 2, "fold": 0, "model": "center_crop", "C": 100}, {"repeat": 2, "fold": 1, "model": "baseline", "C": 10}, {"repeat": 2, "fold": 1, "model": "center_crop", "C": 10}, {"repeat": 2, "fold": 2, "model": "baseline", "C": 1}, {"repeat": 2, "fold": 2, "model": "center_crop", "C": 100}, {"repeat": 2, "fold": 3, "model": "baseline", "C": 10}, {"repeat": 2, "fold": 3, "model": "center_crop", "C": 10}, {"repeat": 2, "fold": 4, "model": "baseline", "C": 10}, {"repeat": 2, "fold": 4, "model": "center_crop", "C": 100}], "changes": [{"repeat": 0, "fixes": 4, "breaks": 12}, {"repeat": 1, "fixes": 6, "breaks": 10}, {"repeat": 2, "fixes": 5, "breaks": 9}], "baseline_max_abs_diff": 1.1102230246251565e-16}
+elapsed_seconds=85.15

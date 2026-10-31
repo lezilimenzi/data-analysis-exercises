@@ -1,0 +1,4 @@
+{
+  "reason": "P3 numpy.str_ to Python str compatibility fix; no candidate or protocol changes",
+  "code_sha256": "e097be65683b53ad555320333abbab50618ed7f3976e6e93d9097e811822929a"
+}

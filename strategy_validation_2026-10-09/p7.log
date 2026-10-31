@@ -1,0 +1,5 @@
+/usr/lib/python3/dist-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.17.3 and <1.25.0 is required for this version of SciPy (detected version 1.26.4
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+p7_summary {"baseline": {"score": 0.7756796022943898, "mean_d": 0.0, "sd_d": 0.0, "wins": 0, "losses": 0, "ties": 14, "pairs": 14, "passes": false}, "coverage": {"score": 0.7627889297744984, "mean_d": -0.012890672519891486, "sd_d": 0.03303537869717904, "wins": 2, "losses": 4, "ties": 8, "pairs": 14, "passes": false}}
+p7_diagnostics {"pooled": {"baseline": 0.853812530354541, "coverage": 0.8463593359934865}, "changes": {"fixes": 3, "breaks": 6}, "feature_std": [1.9627248944770737, 1.5825425228563033, 1.4365536038233888, 0.32983188496931337, 2.9211411920399373, 0.8792018313653807, 0.19428554177979954, 3.281442138490749, 19.457370517927302, 0.4066237252312808, 0.1143509390051834, 0.054746223090776626, 0.03483348206433628, 0.4819935366421656, 0.24236764968605204, 12.015015966310118]}
+elapsed_seconds=0.72
